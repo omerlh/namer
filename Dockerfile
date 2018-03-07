@@ -1,4 +1,4 @@
-FROM ruby
+FROM ruby:2.1
 MAINTAINER Education Team at Docker <education@docker.com>
 
 COPY . /src
