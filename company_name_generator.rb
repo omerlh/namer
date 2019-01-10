@@ -5,6 +5,7 @@ class CompanyNameGenerator < Sinatra::Base
     name = Faker::Company.name
     bs = Faker::Company.bs
     <<-HTML
+      <!DOCTYPE html> 
       <html>
         <style>
           h1, h2 {
